@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link the css files -->
+    <link rel="stylesheet" href="/style/our-framework.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <!-- link font awesome library -->
+    <script src="https://kit.fontawesome.com/daddc78cf0.js" crossorigin="anonymous"></script>
+    <!-- link google font library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Friends</title>
+</head>
+
+<body>
+    <!-- Start page container -->
+    <div class="page-container flex">
+        <!-- Start nav -->
+        <nav class="pa-20 fw-600">
+            <div class="logo flex-js-center">
+                <h3 class="txt-cap relative">mustapha</h3>
+            </div>
+            <ul class="ma-t-10">
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/dashboard.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                        <span class="ma-l-10">dashboard</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/profile.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-user  fa-fw"></i>
+                        <span class="ma-l-10">profile</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/projects.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-diagram-project  fa-fw"></i>
+                        <span class="ma-l-10">projects</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/courses.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-graduation-cap  fa-fw"></i>
+                        <span class="ma-l-10">courses</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/friends.html" class="active flex-align pa-10">
+                        <i class="fa-regular fa-circle-user  fa-fw"></i>
+                        <span class="ma-l-10">friends</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/files.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-file  fa-fw"></i>
+                        <span class="ma-l-10">files</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/plans.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="ma-l-10">plans</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/settings.html" class="flex-align pa-10">
+                        <i class="fa-sharp fa-solid fa-gear  fa-fw"></i>
+                        <span class="ma-l-10">settings</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End nav -->
+        <!-- Start content -->
+        <div class="page-content flex-1">
+            <!-- Start the header of content -->
+            <header class="pa-20 flex-align-sb">
+                <div class="search flex-js-center pa-10 bg-black rad-10">
+                    <i class="fa-solid fa-magnifying-glass c-text fs-14"></i>
+                    <input type="search" placeholder="Type A Keyword" class="bg-black">
+                </div>
+                <div class="profile-notification flex-align">
+                    <i class="fa-regular fa-bell relative"></i>
+                    <a href="/templates/profile.html">
+                        <img src="/imgs/avatar.png" alt="this is an avatar of me">
+                    </a>
+                </div>
+            </header>
+            <!-- End the header of content -->
+            <!-- Start content -->
+            <div class="content pa-20 section-bg-color">
+                <h1 class="main-heading">friends</h1>
+                <!-- Start friends -->
+                <div class="friends grid-responsive-3 grid-mobile gap-20">
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-01.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">mustapha</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">cloud developer</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 pa-l-5 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <span class="vip">VIP</span>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">30 friends</span>
+                            </div>
+                            <div class="project txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">20 projects</span>
+                            </div>
+                            <div class="article txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">5 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 12/11/2021</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-02.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">ahmed</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">javaScript developer</p>
+                        </div>
+                        <div class="pa-b-10 pa-l-5 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">99 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">15 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">25 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 02/01/2022</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-03.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">omar</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">mobile developer</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">70 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">18 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">20 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 12/01/2021</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-04.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">shady</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">back end developer</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">60 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">15 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">10 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 02/04/2022</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-05.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">ibrahim</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">machine learning enginner</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <span class="vip">VIP</span>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">90 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">30 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">12 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 02/05/2022</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-02.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">gabriel</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">front end</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">20 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">10 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">14 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 02/05/2023</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bg-white rad-6 pa-10">
+                        <a href="#"><i class="fa-solid fa-phone bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope bg-eee fs-14 c-text pa-10 bg-eee"></i></a>
+                        <div class="friend-info flex-center txt-cap text-center">
+                            <img src="/imgs/friend-03.jpg" alt="this is an image">
+                            <span class="ma-t-20 fw-600 fs-17">michel</span>
+                            <p class="c-text fs-13 fw-500 ma-t-5">data scientist</p>
+                        </div>
+                        <div class="pa-b-10 pa-t-10 ma-t-15 border-t-ddd-1 border-b-ddd-1 relative">
+                            <span class="vip">VIP</span>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-regular fa-face-smile fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">10 friends</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-code-commit  fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">40 projects</span>
+                            </div>
+                            <div class="friend txt-cap ma-b-5">
+                                <i class="fa-solid fa-newspaper fa-fw fw-500 fs-14 ma-r-5"></i>
+                                <span class="fw-500 fs-14">14 articles</span>
+                            </div>
+                        </div>
+                        <div class="flex-align-sb pa-t-10 pa-b-5">
+                            <span class="c-text fs-13">joined 02/08/2023</span>
+                            <div class="flex">
+                                <a href="profile.html" class="txt-cap btn-shape-blue fs-14 ma-r-5">profile</a>
+                                <input type="button" value="Remove" class="btn-shape fs-14 c-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End friends -->
+            </div>
+            <!-- End content -->
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <!-- link css files -->
+    <link rel="stylesheet" href="/style/our-framework.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <!-- link font awesome library -->
+    <script src="https://kit.fontawesome.com/daddc78cf0.js" crossorigin="anonymous"></script>
+    <!-- link google font library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page flex">
+        <!-- Start nav -->
+        <nav class="pa-20 fw-600">
+            <div class="logo flex-js-center">
+                <h3 class="txt-cap relative">mustapha</h3>
+            </div>
+            <ul class="ma-t-10">
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/dashboard.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                        <span class="ma-l-10">dashboard</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/profile.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-user  fa-fw"></i>
+                        <span class="ma-l-10">profile</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/projects.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-diagram-project  fa-fw"></i>
+                        <span class="ma-l-10">projects</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/courses.html" class="flex-align pa-10">
+                        <i class="fa-solid fa-graduation-cap  fa-fw"></i>
+                        <span class="ma-l-10">courses</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/friends.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-circle-user  fa-fw"></i>
+                        <span class="ma-l-10">friends</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/files.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-file  fa-fw"></i>
+                        <span class="ma-l-10">files</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/plans.html" class="flex-align pa-10">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="ma-l-10">plans</span>
+                    </a>
+                </li>
+                <li class="txt-cap ma-b-5">
+                    <a href="/templates/settings.html" class="active flex-align pa-10">
+                        <i class="fa-sharp fa-solid fa-gear  fa-fw"></i>
+                        <span class="ma-l-10">settings</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End nav -->
+        <!-- Start page content -->
+        <div class="page-content flex-1">
+            <!-- Start the header -->
+            <header class="pa-20 flex-align-sb">
+                <div class="search flex-js-center pa-10 bg-black rad-10">
+                    <i class="fa-solid fa-magnifying-glass c-text fs-14"></i>
+                    <input type="search" placeholder="Type A Keyword" class="bg-black">
+                </div>
+                <div class="profile-notification flex-align">
+                    <i class="fa-regular fa-bell relative"></i>
+                    <a href="/templates/profile.html">
+                        <img src="/imgs/avatar.png" alt="this is an avatar of me">
+                    </a>
+                </div>
+            </header>
+            <!-- End the header -->
+            <!-- Start Content -->
+            <div class="content section-bg-color pa-20">
+                <h1 class="main-heading">settings</h1>
+                <div class="container grid-responsive gap-20 grid-mobile">
+                    <!-- Start site control -->
+                    <div class="site-control bg-white rad-10 pa-20">
+                        <h2 class="txt-cap">site control</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500">control the website if there is
+                            maintenance</span>
+                        <div class="flex-align-sb">
+                            <div class="text">
+                                <h4 class="ma-t-20 fs-17 fw-500 txt-cap">website control</h4>
+                                <p class="c-text fs-13 txt-cap  ma-t-5">open/close website and type the reason</p>
+                            </div>
+                            <div>
+                                <label>
+                                    <input class="check" type="checkbox" checked>
+                                    <div class="toggle-chicked"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <textarea class="full-width height-150 rad-6 pa-10 ma-t-20 bg-black c-text"
+                            placeholder="Close Message Content"> Type The Reason Here...
+                        </textarea>
+                    </div>
+                    <!-- End site control -->
+                    <!-- Start general info -->
+                    <div class="general-info pa-20 bg-white rad-10 txt-cap">
+                        <h2>general info</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500 ma-b-20">general information about your
+                            account</span>
+                        <form action="post">
+                            <label for="f-name" class="ma-b-10 block fs-14 c-text">first name</label>
+                            <input type="text" class="full-width rad-6 pa-10 bg-black" placeholder="Your First Name"
+                                id="f-name">
+                            <label for="l-name" class="ma-t-15 ma-b-10 block fs-14 c-text">last name</label>
+                            <input type="text" class="full-width rad-6 pa-10 bg-black" placeholder="Your Last Name"
+                                id="l-name">
+                            <label for="email" class="ma-t-15 ma-b-10 block fs-14 c-text">email</label>
+                            <input type="email" class="rad-6 pa-10" placeholder="n@gmail.com" id="email" disabled>
+                            <a href="#" class="c-blue ma-l-10 fw-500">change</a>
+                        </form>
+                    </div>
+                    <!-- End general info -->
+                    <!-- Start security information -->
+                    <div class="security pa-20 bg-white rad-10 txt-cap">
+                        <h2>security info</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500 ma-b-20">security information about your
+                            account</span>
+                        <div class="password box flex-align-sb pa-b-20">
+                            <div class="text">
+                                <h4>password</h4>
+                                <span class="ma-t-5 c-text fs-13">last change on 25/01/2023</span>
+                            </div>
+                            <a href="#" class="btn-shape-blue">change</a>
+                        </div>
+                        <div class="authentication box flex-align-sb pa-b-20 pa-t-20">
+                            <div class="text">
+                                <h4>tow facture authentication</h4>
+                                <span class="ma-t-5 c-text fs-13">enable/disable the feature</span>
+                            </div>
+                            <div>
+                                <label>
+                                    <input class="check" type="checkbox" checked>
+                                    <div class="toggle-chicked"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="devices box flex-align-sb pa-t-20">
+                            <div class="text">
+                                <h4>devices</h4>
+                                <span class="ma-t-5 c-text fs-13">check the login devices list</span>
+                            </div>
+                            <input class="fs-16 btn-shape-grey c-black" type="button" value="Devices">
+                        </div>
+                    </div>
+                    <!-- End security information -->
+                    <!-- Start Social info -->
+                    <div class="social-info bg-white pa-20 rad-10 txt-cap">
+                        <h2>social info</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500 ma-b-20">social media information</span>
+                        <div class="box instagram flex-align-sb bg-f6f6f6 c-text ma-b-20">
+                            <div class="icon flex-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <input type="text" placeholder="Instagram Username" class="bg-f6f6f6 full-width pa-l-10">
+                        </div>
+                        <div class="box facebook flex-align-sb bg-f6f6f6 c-text ma-b-20">
+                            <div class="icon flex-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <input type="text" placeholder="Facebook Username" class="bg-f6f6f6 full-width pa-l-10">
+                        </div>
+                        <div class="box linkedin flex-align-sb bg-f6f6f6 c-text ma-b-20">
+                            <div class="icon flex-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <input type="text" placeholder="linkedin Username" class="bg-f6f6f6 full-width pa-l-10">
+                        </div>
+                        <div class="box twitter flex-align-sb bg-f6f6f6 c-text">
+                            <div class="icon flex-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <input type="text" placeholder="twitter Username" class="bg-f6f6f6 full-width pa-l-10">
+                        </div>
+                    </div>
+                    <!-- End Social info -->
+                    <!-- Start widgets control -->
+                    <div class="widgets-control bg-white pa-20 rad-10 txt-cap">
+                        <h2>widgets control</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500 ma-b-20">show/hide widgets</span>
+                        <ul class="ma-t-20">
+                            <li class="ma-b-20 fw-500">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span class="toggle">quick draft</span>
+                                </label>
+                            </li>
+                            <li class="ma-b-20 fw-500">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span class="toggle">yearly targets</span>
+                                </label>
+                            </li>
+                            <li class="ma-b-20 fw-500">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="toggle">tickets statistics</span>
+                                </label>
+                            </li>
+                            <li class="ma-b-20 fw-500">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span class="toggle">latest news</span>
+                                </label>
+                            </li>
+                            <li class="ma-b-20 fw-500">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="toggle">latest tasks</span>
+                                </label>
+                            </li>
+                            <li class="fw-500">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span class="toggle">top search items</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End widgets control -->
+                    <!-- Start backup manager -->
+                    <div class="backup-manager txt-cap bg-white rad-10 pa-20">
+                        <h2>backup manager</h2>
+                        <span class="txt-cap fs-15 c-text block ma-t-10 fw-500 ma-b-20">control backup time and
+                            location</span>
+                        <form action="post" class="form-1">
+                            <label class="block ma-b-20">
+                                <input type="radio" value="daily" name="backup-manager">
+                                <span>daily</span>
+                            </label>
+                            <label class="block ma-b-20">
+                                <input type="radio" value="weekly" name="backup-manager" checked>
+                                <span>weekly</span>
+                            </label>
+                            <label class="block ma-b-20">
+                                <input type="radio" value="monthly" name="backup-manager">
+                                <span>monthly</span>
+                            </label>
+                        </form>
+                        <form action="post" class="form-2 flex pa-t-20 gap-10">
+                            <input id="server-1" type="radio" value="megaman" name="backup-manager-2" checked>
+                            <label for="server-1" class="txt-center pa-15 rad-10 flex-center flex-1">
+                                <span>
+                                    <i class="fa-solid fa-server block mb-10 full-width pa-b-10"></i>
+                                    <span class="fw-500 block">megaman</span>
+                                </span>
+                            </label>
+                            <input id="server-2" type="radio" value="zero" name="backup-manager-2">
+                            <label for="server-2" class="txt-center pa-15 flex-center rad-10 flex-1">
+                                <span>
+                                    <i class="fa-solid fa-server block mb-10 full-width pa-b-10"></i>
+                                    <span class="fw-500">zero</span>
+                                </span>
+                            </label>
+                            <input id="server-3" type="radio" value="sigma" name="backup-manager-2">
+                            <label for="server-3" class="txt-center pa-15 flex-center rad-10 flex-1">
+                                <span>
+                                    <i class="fa-solid fa-server block mb-10 full-width pa-b-10"></i>
+                                    <span class="fw-500">sigma</span>
+                                </span>
+                            </label>
+                        </form>
+                    </div>
+                    <!-- End backup manager -->
+                </div>
+            </div>
+            <!-- End Content -->
+        </div>
+        <!-- End page content -->
+    </div>
+</body>
+
+</html>
