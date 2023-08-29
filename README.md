@@ -2,6 +2,10 @@
 
 Welcome to the repository for the Dashboard Website! This website serves as a powerful tool for visualizing and managing data in an interactive and user-friendly manner. Whether you're monitoring business metrics, analyzing trends, or making data-driven decisions, our dashboard provides you with the insights you need.
 
+## Demo
+
+[Dashboard Website](https://mustapha-dashboard-website.netlify.app/)
+
 ![Dashboard Preview](https://github.com/Mustapha-Nkhili/Dashboard-website/assets/127800851/2ef812de-bcf0-4d6c-b8a9-a558a5d39c22)
 
 ## Table of Contents
